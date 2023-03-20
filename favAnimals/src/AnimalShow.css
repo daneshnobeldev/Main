@@ -1,0 +1,18 @@
+.animal-show{
+    position: relative;
+    border: 1px solid lightslategray;
+    padding:10px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 3px 4px lightslategray;
+
+}
+.animal{
+    height: 200px;
+}
+
+.hear{
+    position: absolute;
+    bottom:10%;
+    right:10%;
+}
