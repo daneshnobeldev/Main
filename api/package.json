@@ -1,0 +1,18 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "json server api to simulate api calls for the course Modern react with Stephen Girder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"react-scripts start",
+    "server":"json-server --watch db.json -p 3001"
+  },
+  "keywords": [
+    "api",
+    "simulation",
+    "json-server"
+  ],
+  "author": "Danesh",
+  "license": "ISC"
+}

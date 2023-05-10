@@ -7,7 +7,7 @@ function App() {
     const [animalList,SetAnimalList] = useState([]);
     const animals = ['bird','cat','cow','dog','gator','horse'];
     const AddAnimal = () => {
-        debugger;
+        
         SetAnimalList([...animalList,getRandomAnimal()]);
         
     }
