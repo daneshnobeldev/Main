@@ -4,7 +4,7 @@ import NavigationContext from "../context/NavigationContext";
 
 
 function Route({children,to}){
-    debugger;
+    
     const {currentPath} = useContext(NavigationContext);
 
     if(to === currentPath){

@@ -6,6 +6,7 @@ import Route from "./components/Route";
 import Sidebar from "./components/Sidebar";
 import ModalPage from "./pages/ModalPage";
 import TablePage from "./pages/TablePage";
+import CounterPage from "./pages/CounterPage";
 function App() {
     return (<NavigationProvider className = "flex">
        <Sidebar className="w-1/5"/>
@@ -25,6 +26,9 @@ function App() {
             </Route>
             <Route to="/table">
                 <TablePage />
+            </Route>
+            <Route to="/useCounter">
+                <CounterPage />
             </Route>
         </div>
     </NavigationProvider>)
