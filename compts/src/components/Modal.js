@@ -6,7 +6,7 @@ function Modal({ open,onChange }) {
     const [isOpen, setIsOpen] = useState(open);
     useEffect(() => {
         const handleClick = (event) => {
-            debugger;
+            ;
             const modalBg = document.querySelector('.modal-container .modal-bg');
             if (modalBg && modalBg.contains(event.target)) {
                 setIsOpen(false);

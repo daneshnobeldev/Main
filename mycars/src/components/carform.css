@@ -1,0 +1,20 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding:15px;   
+}   
+form .title{
+    flex : 1 1 100%
+}
+.field:not(.submit){
+   align-items: center;
+   margin :0!important;
+   padding:5px;
+   flex: auto;
+   
+}
+.field label{
+    padding-right:15px;
+}

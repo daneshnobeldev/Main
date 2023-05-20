@@ -8,7 +8,7 @@ function Link({to,children,className,activeClassName}){
     const {navigate} = useContext(NavigationContext);
     const classes = classNames(className,activeClassName);
     const handleClick = (event) => {
-        debugger;
+        ;
         if(event.ctrlKey || event.metaKey){
             return;
         }

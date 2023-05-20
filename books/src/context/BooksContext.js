@@ -16,7 +16,7 @@ function Provider({ children }) {
 
     }, [books])
     const deleteBookById = useCallback(async (id) => {
-        debugger;
+        ;
         const response = await axios.delete(`http://localhost:3001/books/${id}`);
         if (response.statusText === "OK") {
             const updatedBooks = books.filter((book) => {

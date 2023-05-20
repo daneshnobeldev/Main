@@ -22,7 +22,7 @@ const NavigationProvider = ({ children,classNames }) => {
     },[])
 
     const navigate = ({to}) => {
-        debugger;
+        ;
     window.history.pushState({},'',to);
     setCurrentPath(to);
 
