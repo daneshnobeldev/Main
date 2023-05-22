@@ -1,15 +1,29 @@
 {
   "users": [
     {
-      "name": "Myra",
-      "id": 1
+      "name": "Ms. Suzanne McDermott",
+      "id": 2
+    },
+    {
+      "name": "Ms. Elena O'Reilly",
+      "id": 3
     }
   ],
   "albums": [
     {
-      "id": 10,
-      "name": "Road Trip",
-      "userId": 1
+      "title": "One of Us",
+      "userId": 3,
+      "id": 8
+    },
+    {
+      "title": "Baby One More Time",
+      "userId": 2,
+      "id": 9
+    },
+    {
+      "title": "Hero",
+      "userId": 3,
+      "id": 10
     }
   ],
   "posts": [

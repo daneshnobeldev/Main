@@ -17,7 +17,7 @@ function ExpandablePanel({ header, children }) {
                     {isExpanded?<GoChevronDown/>:<GoChevronLeft/>}
                  </div>
             </div>
-            {isExpanded && <div className="p-2 border-t">
+            {isExpanded && <div className="p-2 border-t flex flex-col">
                {children}
                </div>}
             
