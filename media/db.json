@@ -1,8 +1,15 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Myra"
+      "name": "Myra",
+      "id": 1
+    }
+  ],
+  "albums": [
+    {
+      "id": 10,
+      "name": "Road Trip",
+      "userId": 1
     }
   ],
   "posts": [

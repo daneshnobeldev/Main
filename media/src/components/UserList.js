@@ -35,10 +35,9 @@ function UserList() {
 
     else if (data.length > 0) {
         content = data.map(u =>
-            <div
-                className=" rounded border bg-indigo-500 text-white " key={u.id}>
-                <UserListItem user={u} />
-            </div>)
+           
+                <UserListItem key={u.id} user={u} />
+           )
     }
 
     return (
