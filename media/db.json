@@ -11,19 +11,14 @@
   ],
   "albums": [
     {
-      "title": "One of Us",
+      "title": "I Got You (I Feel Good)",
       "userId": 3,
-      "id": 8
+      "id": 29
     },
     {
-      "title": "Baby One More Time",
+      "title": "Kiss From a Rose",
       "userId": 2,
-      "id": 9
-    },
-    {
-      "title": "Hero",
-      "userId": 3,
-      "id": 10
+      "id": 31
     }
   ],
   "posts": [
