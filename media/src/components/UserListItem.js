@@ -7,7 +7,7 @@ import AlbumList from './AlbumList';
 function UserListItem({ user }) {
     const [isLoading, error, goDeleteUser] = useThunk(removeUser);
     const handleDelete = () => {
-        ;
+        
         goDeleteUser(user)
     }
 

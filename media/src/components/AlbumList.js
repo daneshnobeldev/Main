@@ -5,7 +5,7 @@ import Skeleton from "./Skeleton";
 import AlbumListItem from "./AlbumListItem";
 
 function AlbumList({ user }) {
-    debugger;
+    
     const { data, error, isFetching } = useFetchAlbumsQuery(user);
     const [addAlbum, results] = useAddAlbumMutation();
 

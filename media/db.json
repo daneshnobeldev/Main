@@ -5,37 +5,100 @@
       "id": 2
     },
     {
-      "name": "Ms. Elena O'Reilly",
+      "name": "Angie Kerluke",
       "id": 3
+    },
+    {
+      "name": "Rudy Lubowitz",
+      "id": 4
+    },
+    {
+      "name": "Dr. Jeanette Keeling-Pollich",
+      "id": 5
     }
   ],
   "albums": [
     {
-      "title": "I Got You (I Feel Good)",
-      "userId": 3,
-      "id": 29
-    },
-    {
       "title": "Kiss From a Rose",
       "userId": 2,
       "id": 31
-    }
-  ],
-  "posts": [
+    },
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "Burn",
+      "userId": 3,
+      "id": 32
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "Cracklin' Rosie",
+      "userId": 3,
+      "id": 33
+    },
+    {
+      "title": "Born to Be Wild",
+      "userId": 5,
+      "id": 34
+    },
+    {
+      "title": "Good Lovin'",
+      "userId": 5,
+      "id": 35
+    },
+    {
+      "title": "We Are Family",
+      "userId": 5,
+      "id": 36
+    },
+    {
+      "title": "Wanted",
+      "userId": 3,
+      "id": 37
+    },
+    {
+      "title": "I Went to Your Wedding",
+      "userId": 4,
+      "id": 38
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "photos": [
+    {
+      "albumId": 31,
+      "url": "https://loremflickr.com/100/100?lock=72354707275776",
+      "id": 12
+    },
+    {
+      "albumId": 31,
+      "url": "https://loremflickr.com/100/100?lock=4033735819264000",
+      "id": 13
+    },
+    {
+      "albumId": 34,
+      "url": "https://loremflickr.com/100/100?lock=3697567187599360",
+      "id": 15
+    },
+    {
+      "albumId": 34,
+      "url": "https://loremflickr.com/100/100?lock=4368649131393024",
+      "id": 16
+    },
+    {
+      "albumId": 34,
+      "url": "https://picsum.photos/seed/HE6CjR/100/100",
+      "id": 17
+    },
+    {
+      "albumId": 35,
+      "url": "https://loremflickr.com/100/100?lock=4264211427360768",
+      "id": 18
+    },
+    {
+      "albumId": 36,
+      "url": "https://picsum.photos/seed/azhHZ/100/100",
+      "id": 19
+    },
+    {
+      "albumId": 38,
+      "url": "https://loremflickr.com/100/100?lock=8031035780497408",
+      "id": 20
+    }
+  ]
 }
